@@ -14,8 +14,8 @@ public class LibraryManagementSystem {
         library.addBook(book2);
 
         // Create users
-        User user1 = new User("john_doe", "password123");
-        Admin admin1 = new Admin("admin_user", "admin_password");
+        User user1 = new User("Mr Bean", "Bean@123");
+        Admin admin1 = new Admin("admin1", "admin_password1");
 
         // Simulate user login
         Scanner scanner = new Scanner(System.in);
